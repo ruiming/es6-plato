@@ -111,7 +111,7 @@ exports['plato'] = {
 
     plato.inspect(files, null, {noempty : true}, function(reports) {
       var overview = plato.getOverviewReport(reports);
-      test.ok(overview.summary.total.sloc === 10, 'Should contain total sloc without empty lines counted');
+      test.ok(overview.summary.total.sloc === 11, 'Should contain total sloc without empty lines counted');
       test.done();
      });
   }
